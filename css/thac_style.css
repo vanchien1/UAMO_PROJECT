@@ -1,0 +1,51 @@
+.begin_container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.begin_container img {
+    width: auto;;
+    height: auto;
+}
+
+.begin_text {
+    position: absolute;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.begin_text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.begin_text h2 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.begin_text p {
+    font-size: 16px;
+    color: #666666;
+    margin: 20px 0;
+    max-width: 50vh;
+}
+
+.begin_text a {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
